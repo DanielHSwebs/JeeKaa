@@ -58,3 +58,12 @@ footer{
 footer ul li{
 	list-style: disc;
 }
+
+.left{
+	background-color:#99ffcc;
+	position: fixed;
+	width: 10%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
