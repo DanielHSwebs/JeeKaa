@@ -55,7 +55,13 @@ img.homeafb{
 .container {
     position: relative;
     text-align: center;
-    color: yellow;
+    /* color: black;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white; */
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    color: white; 
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-family: Verdana, sans-serif;
+    font-weight: 900;
 }
 
 .centered {
@@ -64,5 +70,5 @@ img.homeafb{
     left: 70%;
     transform: translate(-50%, -50%);
     font-size: 140px;
-    font-style: bold;
+    
 } 
