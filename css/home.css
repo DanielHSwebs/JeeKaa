@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: grey;
 }
 
 ul {
@@ -52,7 +53,7 @@ img.homeafb{
 	margin-bottom: 0;
 }
 
-.container {
+.containertext {
     position: relative;
     text-align: center;
     /* color: black;
@@ -66,9 +67,22 @@ img.homeafb{
 
 .centered {
     position: absolute;
-    top: 70%;
+    bottom: 30%;
     left: 70%;
     transform: translate(-50%, -50%);
     font-size: 140px;
     
 } 
+
+.icon-bar {
+    width: 60px;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center; 
+    padding: 10px;
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 30px; 
+}

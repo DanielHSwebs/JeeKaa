@@ -3,7 +3,6 @@
  	<title>Jeffrey van Heuven van Staereling</title>
  	<link rel="stylesheet" type="text/css" href="css/home.css">
  	<script type="text/javascript" src="js/home.js"></script>
-
  </head>
  <body>
 <ul>
@@ -15,12 +14,63 @@
   <li><a href="recordings.html">Recordings</a></li>
   <li><a href="contact.html">Contact</a></li>
 </ul>
+<header>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-5c79957b-594b-463b-9075-85306bdf6f1e"></div>
+</header>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v3.1'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+    
+
+
+
+
+
+<!--	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+	<div class="icon-bar">
+ 		<ul>	
+ 		<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+  		<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+  		<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+  		</ul>
+	</div> -->
+
 <div class="main">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="300px" data-height="300px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+
 	<div>
-		<div class="centered container">Jeffrey <p style="font-size: 20px">By Jeekaa</p></div>
+		<div class="centered containertext">Jeffrey <p style="font-size: 20px">By Jeekaa</p></div>
 		<img class="homeafb" src="img/home.jpg">
-		</div>
-</div> 
+	</div> 
+
 
 
  </body>
