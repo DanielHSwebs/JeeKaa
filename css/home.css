@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: grey;
+    background-color: white;
 }
 
 ul {
@@ -48,29 +48,31 @@ li a:hover {
 }
 
 img.homeafb{
-	width: 100%;
+	width: 80%;
 	height: 610px;
 	margin-bottom: 0;
 }
 
-.containertext {
+.container {
     position: relative;
-    text-align: center;
     /* color: black;
     text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white; */
     /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
-    color: white; 
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    color: black; 
     font-family: Verdana, sans-serif;
-    font-weight: 900;
 }
 
-.centered {
+.top-leftinsta{
     position: absolute;
-    bottom: 30%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    font-size: 140px;
+    top: 77px;
+    left: 70px;
+}
+
+.top-left {
+    position: absolute;
+    top: 300px;
+    left: 16px;
+    font-size: 15px;
     
 } 
 
@@ -85,4 +87,14 @@ img.homeafb{
     transition: all 0.3s ease; 
     color: white; 
     font-size: 30px; 
+}
+
+
+.instalogo{
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    
 }
